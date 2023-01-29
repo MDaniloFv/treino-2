@@ -1,0 +1,100 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">);
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cream);
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 700px;
+}
+
+.produto {
+    padding: 35px;
+} 
+
+/* PRODUTO */
+
+img {
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* TEXTO */
+
+ .cateria {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.produto h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: var(--very-dark-blue);
+    font-size: 2rem;
+}
+
+.produto p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.preco .atual {
+    font-family: 'Fraunces', serif;
+    color: var(--dark-cyan);
+    font-size: 1.7rem;
+    margin-right: 20px;
+    font-weight: 700;
+
+}
+
+.preco .antes {
+    text-decoration: line-through;
+}
+
+/* BOTAO */
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    padding: 20px;
+    border-style: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: var(--dark-grayish-blue);
+    transition: 0.5s;
+}
+
+.fa-cart-shopping {
+    margin-right: 10px;
+}

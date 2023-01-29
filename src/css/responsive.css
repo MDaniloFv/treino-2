@@ -1,0 +1,30 @@
+@media (max-width: 376px) {
+   
+    section {
+        display: grid;
+    }
+
+    .produto {
+        max-width: 500px;
+    }
+
+    img {
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .preco {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
